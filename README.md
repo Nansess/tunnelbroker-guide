@@ -121,5 +121,5 @@ This guide was created to simplify the process of setting up an IPv6 tunnel usin
 
 Thanks to the following resources (blogs) for providing information and inspiration:
 
-- [Freya's Notes](https://blog.arbjerg.dev/2020/3/tunnelbroker-with-lavalink) - For offering helpful insights into setting up an IPv6 tunnel.
-- [Darren Nathanael](https://blog.darrennathanael.com/post/tunnelbroker-lavalink-netplan/) - For providing guidance on configuring the IPv6 tunnel setup.
+- [Freya's Notes](https://blog.arbjerg.dev/2020/3/tunnelbroker-with-lavalink) 
+- [Darren Nathanael](https://blog.darrennathanael.com/post/tunnelbroker-lavalink-netplan/) 
