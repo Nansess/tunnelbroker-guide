@@ -30,11 +30,11 @@ echo 'net.ipv6.ip_nonlocal_bind = 1' >> /etc/sysctl.conf
 #### Command 1: Add IPv6 Tunnel Interface
 
 ```bash
-sudo ip tunnel add he-ipv6 mode sit remote [TUNNEL_SERVER_IPV4] local [YOUR_LOCAL_IPV4] ttl 255
+sudo ip tunnel add he-ipv6 mode sit remote [TUNNEL_SERVER_IPV4] local [YOUR_CLIENT_IPV4] ttl 255
 ```
 
 - Replace `[TUNNEL_SERVER_IPV4]` with the server's IPv4 address provided by Tunnelbroker.net.
-- Replace `[YOUR_LOCAL_IPV4]` with your local IPv4 address.
+- Replace `[YOUR_CLIENT_IPV4]` with your local IPv4 address.
 
 **Note**: If you encounter the "no buffer space available" error during this step due to misconfiguration, run:
 
