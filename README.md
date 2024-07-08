@@ -67,6 +67,7 @@ sudo ip route add ::/0 via [YOUR_IPV6_BLOCK]::1 dev he-ipv6
 ```
 
 - This command adds a default route for IPv6 traffic via the tunnel interface.
+- If you encounter a "File exists" error, change 'add' to 'replace'
 - Replace `[YOUR_IPV6_BLOCK]::1` with the IPv6 address provided as the tunnel endpoint by Tunnelbroker.net.
 
 #### Command 5: Handle Limited Pingability
