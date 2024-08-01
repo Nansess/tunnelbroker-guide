@@ -36,7 +36,9 @@ sudo ip tunnel add he-ipv6 mode sit remote [TUNNEL_SERVER_IPV4] local [YOUR_CLIE
 - Replace `[TUNNEL_SERVER_IPV4]` with the server's IPv4 address provided by Tunnelbroker.net.
 - Replace `[YOUR_CLIENT_IPV4]` with your local IPv4 address.
 
-**Note**: If you encounter the "no buffer space available" error during this step due to misconfiguration, run:
+**Note 1**: If you are using `Oracle Cloud`, the `[YOUR_CLIENT_IPV4]` needs to be your `Private IPv4 address` **not the public one!** Rest of the commands are still the same.
+
+**Note 2**: If you encounter the "no buffer space available" error during this step due to misconfiguration, run:
 
 ```bash
 sudo ip tun del he-ipv6
